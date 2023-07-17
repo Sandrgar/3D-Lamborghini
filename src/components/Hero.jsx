@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 import { styles } from "../styles"
 import { background, logo } from "../assets"
-import { LamborghiniCanvas } from './canvas'
+import LamborghiniCanvas from "./canvas/Lamborghini"
 
 const Hero = () => {
   return (
