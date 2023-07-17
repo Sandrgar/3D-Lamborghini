@@ -9,11 +9,12 @@ const Lamborghini = () => {
     <mesh>
         <hemisphereLight intensity={2}
         groundColor= 'yellow'/>
-        <pointLight intensity={3}/>
+        <pointLight intensity={2}/>
         <primitive 
         object={lambo.scene}
-        scale ={3}
-        
+        scale ={2}
+        position={[6, -0.5, 1]}
+        rotation= {[-0, 1.3, -0]}
         />
     </mesh>
   )
@@ -24,10 +25,21 @@ const LamborghiniCanvas = () => {
     return(
         <Canvas
     frameloop="demand"
-    camera={{position: [40, 4, 10], fov: 15}}
+    camera={{position: [40, 5, 10], fov: 20}}
     gl={{preserveDrawingBuffer:true}}
     >
    <Suspense fallback={<CanvasLoader/>}>
+    <spotLight
+    position={[-200, 100, 10]}
+    angle={0.2}
+    penumbra={2}
+    
+    
+    shadow-mapSize={1024}
+    />
+
+   
+
     <OrbitControls 
     maxPolarAngle={Math.PI /2.2}
     minPolarAngle={Math.PI /2.2}
