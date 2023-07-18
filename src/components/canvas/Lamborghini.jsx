@@ -13,7 +13,7 @@ const Lamborghini = () => {
         <primitive 
         object={lambo.scene}
         scale ={2}
-        position={[6, -0.5, 1]}
+        position={[6, 0, -2]}
         rotation= {[-0, 1.3, -0]}
         />
     </mesh>

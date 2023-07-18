@@ -2,6 +2,8 @@ import { motion } from "framer-motion"
 import { styles } from "../styles"
 import { background, logo } from "../assets"
 import LamborghiniCanvas from "./canvas/Lamborghini"
+import AventadorCanvas from "./canvas/Aventador"
+import UrusCanvas from './canvas/Urus'
 
 const Hero = () => {
   return (
@@ -14,7 +16,7 @@ const Hero = () => {
         max-w-7xl flex flex-col top-[120px] gap-5`}
       >
         <div
-        className="flex justify-center items-center "
+          className="flex justify-center items-center "
         >
           {/* <img src={logo} alt="logo"
             className=" h-45 w-60"
@@ -22,7 +24,15 @@ const Hero = () => {
 
 
         </div>
-        <LamborghiniCanvas />
+        <div >
+          <LamborghiniCanvas />
+        </div>
+
+        <div>
+          <AventadorCanvas />
+        </div>
+
+       
       </div>
 
     </section>
