@@ -3,7 +3,7 @@ import { styles } from "../styles"
 import { background, logo } from "../assets"
 import LamborghiniCanvas from "./canvas/Lamborghini"
 import AventadorCanvas from "./canvas/Aventador"
-import UrusCanvas from './canvas/Urus'
+
 
 const Hero = () => {
   return (
