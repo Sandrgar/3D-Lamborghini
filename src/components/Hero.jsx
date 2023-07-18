@@ -25,14 +25,24 @@ const Hero = () => {
 
         </div>
         <div >
-          <LamborghiniCanvas />
+          <div className="h-[300px] w-[900px] flex">
+            <LamborghiniCanvas />
+            <div div className="w-[330px]" >
+              <p className='text-white text-[18px] font-bold cursor-pointer flex justify-center'>Lamborghini - Centenario</p>
+            </div>
+          </div>
+
+
+          <div className="mt-10 h-[300px] w-[900px] flex">
+            <AventadorCanvas />
+            <div className="w-[320px]">
+              <p className='text-white text-[18px] font-bold cursor-pointer  flex justify-center'>Lamborghini - Aventador</p>
+            </div>
+          </div>
+
         </div>
 
-        <div>
-          <AventadorCanvas />
-        </div>
 
-       
       </div>
 
     </section>

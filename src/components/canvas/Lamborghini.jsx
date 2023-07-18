@@ -8,12 +8,12 @@ const Lamborghini = () => {
   return (
     <mesh>
         <hemisphereLight intensity={2}
-        groundColor= 'yellow'/>
+        groundColor= 'white'/>
         <pointLight intensity={2}/>
         <primitive 
         object={lambo.scene}
-        scale ={2}
-        position={[6, 0, -2]}
+        scale ={5}
+        position={[11, 0, 4]}
         rotation= {[-0, 1.3, -0]}
         />
     </mesh>
@@ -30,7 +30,7 @@ const LamborghiniCanvas = () => {
     >
    <Suspense fallback={<CanvasLoader/>}>
     <spotLight
-    position={[-200, 100, 10]}
+    position={[-400, 100, 10]}
     angle={0.2}
     penumbra={2}
     
