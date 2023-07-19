@@ -19,16 +19,16 @@ const Hero = () => {
         <div >
           <div className="h-[380px] w-[1000px] flex">
             <LamborghiniCanvas />
-            <div div className="w-[330px]  mt-[80px]" >
-              <p className='text-white text-[18px] font-bold cursor-pointer flex justify-center'>Lamborghini - Centenario</p>
+            <div div className="w-[500px]  mt-[80px]" >
+              <p className='text-white text-[24px] font-bold cursor-pointer flex justify-center'>Lamborghini - Centenario</p>
             </div>
           </div>
         
 
           <div className=" h-[380px] w-[1000px] flex">
             <AventadorCanvas />
-            <div className="w-[320px] mt-[80px]">
-              <p className='text-white text-[18px] font-bold cursor-pointer  flex justify-center'>Lamborghini - Aventador</p>
+            <div className="w-[500px] mt-[80px]">
+              <p className='text-white text-[24px] font-bold cursor-pointer  flex justify-center'>Lamborghini - Aventador</p>
             </div>
           </div>
 
