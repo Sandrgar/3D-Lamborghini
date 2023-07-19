@@ -15,8 +15,8 @@ const Aventador = () => {
         <primitive 
         object={aventador.scene}
         scale ={5}
-        position={[11, 0.3, 5]}
-        rotation= {[-0, 1.3, -0]}
+        
+        rotation= {[-0, 1.7, -0]}
         />
     </mesh>
   )
