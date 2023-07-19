@@ -7,5 +7,6 @@ export {
     Navbar,
     Hero,
     LamborghiniCanvas,
-    AventadorCanvas
+    AventadorCanvas,
+
 }
